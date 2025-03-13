@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Arjun Parmar, BA</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Arjun Parmar</a>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="Publications.html">Publications</a></li>
+                <li><a href="presentations.html">Presentations</a></li>
+                <li class="active"><a href="datavis.html">Data Visualization</a></li>
+                <li><a href="MocAPP.html">MoCAPP</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://x.com/@Ajparmar_" class="icon brands alt fa-twitter"><span
+                            class="label">Twitter</span></a></li>
+                <li><a href="https://github.com/ajparm" class="icon brands alt fa-github"><span
+                            class="label">GitHub</span></a></li>
+                <li><a href="https://linkedin.com/in/arjunparmar9" class="icon brands alt fa-linkedin"><span
+                            class="label">LinkedIn</span></a></li>
+
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+            <!-- Post -->
+            <section class="post">
+                <header class="major">
+                    <h1><u>Data Visualization Gallery</u></h1>
+                    <hr>
+                </header>
+
+                <div style="text-align: center;">
+                    <h1>Biomechanics</h1>
+                </div>
+
+                <div style="text-align: center;">
+                    <h2> Interactive Ground Reaction Force Plot</h2>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px;">
+                    <!-- Left Column: Plot Specifics -->
+                    <div style="width: 30%; padding: 10px; background-color: #f0f0f0; box-sizing: border-box;">
+                        <div style="text-align: center;">
+                            <h3>Plot Development</h3>
+                        </div>
+                        <ul>
+                            <li>Drop vertical jump GRF measured by force plates.</li>
+                            <li>
+                                Data preprocessed with R. <br>
+                                - Time normalized.<br>
+                                - Averaged GRF waveform.
+                            </li>
+                            <li>Plot created using Plotly library.</li>
+                            <li>Exported as an HTML file.</li>
+                        </ul>
+                    </div>
+                    <!-- Center Column: Plot -->
+                    <div style="width: 40%; padding: 0px; box-sizing: border-box;">
+                        <iframe src="plots/3dplot.html"
+                            style="width: 100%; height: 600px; border: 1px solid black;"></iframe>
+                    </div>
+                    <!-- Right Column: Plot Description -->
+                    <div style="width: 30%; padding: 10px; background-color: #f0f0f0; box-sizing: border-box;">
+                        <div style="text-align: center;">
+                            <h3>Plot Legend</h3>
+                        </div>
+                        <ul>
+                            <li> X-axis: Anterior-Posterior (Blue)</li>
+                            <li> Y-axis: Medial-Lateral (Red)</li>
+                            <li> Z-axis: Vertical (Green)</li>
+                            <li> Green Trace: Healthy Limb</li>
+                            <li> Orange Trace: ACL Reconstructed Limb</li>
+                        </ul>
+                    </div>
+                </div>
+                <p><b>Description</b>: 3D visialization of ground reaction forces (GRF) during adrop vertical jump after
+                    ACL reconstruction.
+                    Visualising the GRF during the jump landing, we can visualy inspect asymmetries in GRF between the
+                    healthy and reconstructed limbs.
+                    <a href="presentations.html#3D_GRF">Click here for more information on the study.</a>
+                </p>
+                <br>
+
+
+                <hr>
+                <div style="text-align: center;">
+                    <h1>Dashboard Engineering</h1>
+                </div>
+
+                <div style="text-align: center;">
+                    <h2> Knee Injury Progress Report</h2>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
+                    <!-- Left: Embedded PDF -->
+                    <div style="width: 50%; padding: 10px; box-sizing: border-box;">
+                        <iframe src="files/PRO Report.pdf"
+                            style="width: 100%; height: 700px; border: 1px solid black;">
+                        </iframe>
+                    </div>
+                    <!-- Right: Placeholder for additional content -->
+                    <div style="width: 50%; padding: 10px; box-sizing: border-box;">
+                        <!-- Add content for the right side if needed -->
+                        <p>As a part of a longitudinal project assessing patient outcomes after knee injury I have
+                            developped a report to describe participant phsyical and mental outcomes.
+                            <br>
+                        <ol>
+                            <li>Data collected and entered into REDCap project database.</li>
+                            <li>PowerBI retrives participant data via the API.</li>
+                            <li>Report is automatically generated with visuals and text summary.</li>
+                        </ol>
+                        Automated reporting has improved participant retention and buy in from the
+                        surgical/rehabilitaion team and participant.
+                        </p>
+                    </div>
+                </div>
+
+                <div style="text-align: center;">
+                    <h2> Athlete Testing Report</h2>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px;">
+                    <!-- Left: Placeholder for additional content -->
+                    <div style="width: 50%; padding: 10px; box-sizing: border-box;">
+                        <!-- Add content for the right side if needed -->
+                        <p>As a part of a longitudinal project assessing MSU female athlete injury risk, funded by Nike.
+                            <br>
+                        <ol>
+                            <li>Data collected and entered into REDCap project database.</li>
+                            <li>PowerBI retrives participant data via the API.</li>
+                            <li>Report is automatically generated with visuals and text summary.</li>
+                            - Custom R and python scripts visualize data
+                        </ol>
+                        Automated reporting has improved participant retention over three years. Reports are used by the
+                        athlete care team to reduce injury risk and imrpove performance.
+                        </p>
+                    </div>
+                    <!-- Right: Embedded PDF -->
+                    <div style="width: 50%; padding: 10px; box-sizing: border-box;">
+                        <iframe src="files/Nike Report.pdf"
+                            style="width: 100%; height: 700px; border: 1px solid black;">
+                        </iframe>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+
+
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+                <li>Adapted from: <a href="https://html5up.net">HTML5 UP</a> by @ajlkn Licensed under CC BY 3.0</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
